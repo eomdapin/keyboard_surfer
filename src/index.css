@@ -5,7 +5,11 @@
   font-style: normal;
 }
 
-* {margin: 0; padding: 0; box-sizing: border-box;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'SUIT-Regular', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -14,22 +18,56 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-ul, li {
+
+ul,
+li {
   list-style: none;
 }
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
 #header {
   display: flex;
   width: 100%;
   background-color: #333;
 }
+
 #header .logo img {
   width: 120px;
 }
+
 #header .nav {
   width: 500px;
 }
-#header .nav ul{
+
+#header .nav ul {
   display: flex;
   justify-content: space-between;
+}
 
+#content {
+  display: grid;
+  width: 800px;
+  border: 1px solid #000;
+}
+
+#content div {
+  border: 1px solid #000;
+}
+
+#content .recommend,
+.popular {
+  width: 350px;
+}
+
+#content .recommend {}
+
+#content .popular {}
+
+#content .product {
+  width: 200px;
 }
