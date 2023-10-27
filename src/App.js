@@ -6,7 +6,7 @@ import Footer from "./component/Footer.js";
 
 function App() {
   return (
-    <div className="wrap">
+    <div id="wrap">
       <Header />
       <Content />
       <Footer />
