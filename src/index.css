@@ -40,7 +40,6 @@ img {
   width: 100%;
   padding: 0 30px;
   background-color: #403835;
-  color: #f2ebe9;
 }
 #header::after {
   content: '';
@@ -74,8 +73,14 @@ img {
   width: 180px;
   height: 100%;
 }
+#header .nav ul li a {
+  color: #f2ebe9;
+}
 #header .nav ul li:hover {
   background-color: #d9cec7;
+  color: #fff;
+}
+#header .nav ul li:hover a {
   color: #fff;
 }
 #header .nav ul li:hover .sub_nav {
@@ -89,7 +94,8 @@ img {
 }
 #header .nav .sub_nav li {
   height: 80px;
-  text-align: 80px;
+  line-height: 80px;
+  border-top: 1px solid #eee;
 }
 #header .login_box a:first-child {
   padding-right: 10px;

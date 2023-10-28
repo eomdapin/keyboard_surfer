@@ -8,32 +8,32 @@ function Header() {
       </div>
       <div className='nav'>
         <ul>
-          <li>공지사항
+          <li><a href="#">공지사항</a>
             <ul className="sub_nav">
-              <li>공지사항</li>
-              <li>이벤트</li>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">이벤트</a></li>
             </ul>
           </li>
-          <li>상품 목록
+          <li><a href="#">상품 목록</a>
             <ul className="sub_nav">
-              <li>풀배열 키보드</li>
-              <li>텐키리스 키보드</li>
-              <li>66Key 키보드</li>
-              <li>마우스 패드</li>
-              <li>악세서리</li>
+              <li><a href="#">풀배열 키보드</a></li>
+              <li><a href="#">텐키리스 키보드</a></li>
+              <li><a href="#">66Key 키보드</a></li>
+              <li><a href="#">마우스 패드</a></li>
+              <li><a href="#">악세서리</a></li>
             </ul>
           </li>
-          <li>자유게시판
+          <li><a href="#">자유게시판</a>
             <ul className="sub_nav">
-              <li>자유게시판</li>
-              <li>출석체크</li>
+              <li><a href="#">자유게시판</a></li>
+              <li><a href="#">출석체크</a></li>
             </ul>
           </li>
-          <li>마이페이지
+          <li><a href="#">마이페이지</a>
             <ul className="sub_nav">
-              <li>주문조회</li>
-              <li>주문취소</li>
-              <li>장바구니</li>
+              <li><a href="#">주문조회</a></li>
+              <li><a href="#">주문취소</a></li>
+              <li><a href="#">장바구니</a></li>
             </ul>
           </li>
         </ul>
