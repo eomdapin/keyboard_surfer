@@ -83,7 +83,7 @@ img {
   line-height: 80px;
   text-align: center;
   background: rgba(255, 255, 255, 0.3);
-  color: #eee;
+  color: #f2ebe9;
   font-size: 32px;
 }
 
@@ -94,7 +94,7 @@ img {
 #content .box, #content .bottom_box {
   width: 100%;
 }
-#content .box div {
+#content .box > div {
   overflow: hidden;
   margin: 15px 0;
 }
@@ -120,7 +120,7 @@ img {
   text-align: right;
 }
 #content .link a {
-  color: #eee;
+  color: #f2ebe9;
   font-Size: 28px;
 }
 #content .link span {
@@ -134,10 +134,11 @@ img {
   float: right;
 }
 #content .product {
+  position: relative;
   width: 248px;
   height: 240px;
   float: left;
-  border: 1px solid #eee;
+  border: 1px solid #f2ebe9;
 }
 #content .product:nth-of-type(3n+4) { /* 중간 상품 */
   float: left;
@@ -147,5 +148,50 @@ img {
   float: right;
   margin-left: 0;
 }
+#content .product div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #403835;
+  color: #f2ebe9;
+}
 
-/* #footer {} */
+#footer {
+  width: 100%;
+}
+#footer, #footer a {
+  font-size: 13px;
+  color: #f2ebe9;
+}
+#footer a:hover {
+  text-decoration: underline;
+}
+#footer > div {
+  padding-left: 200px;
+}
+#footer .top {
+  height: 40px;
+  line-height: 40px;
+  background: #403835;
+}
+#footer .bottom {
+  height: 190px;
+  padding-top: 10px;
+  line-height: 15px;
+  background: #a69a94;
+}
+#footer .friend_company {
+  float: left;
+}
+#footer .footer_logo {
+  float: right;
+  margin-right: 150px;
+}
+
+#footer .footer_logo img {
+  width: 170px;
+}

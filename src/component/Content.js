@@ -10,9 +10,10 @@ function Content() {
       <div className='box'>
         {
           productClassName.map((className, index) => {
-            console.log(className)
             return (
-              <Product className={className} href={`/product/sub0${index+1}`} src={`./img/${index + 1}.jpg`} />
+              <React.Fragment key={index}>
+                <Product className={className} href={`/product/sub0${index + 1}`} src={`./img/${index + 1}.jpg`} alt={`/product/sub0${index + 1}`} />
+              </React.Fragment>
             );
           })
         }
