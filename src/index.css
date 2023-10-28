@@ -37,19 +37,29 @@ img {
 }
 
 #header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   width: 100%;
-  height: 96px;
+  padding: 0 30px;
   background-color: #403835;
   color: #f2ebe9;
+}
+#header::after {
+  content: '';
+  display: block;
+  clear: left;
+}
+#header > div {
+  float: left;
+  padding-top: 5px;
+  margin-right: 80px;
+}
+#header > div:last-child {
+  margin-right: 0;
+  padding-top: 35px;
 }
 #header .logo img {
   width: 170px;
 }
 #header .nav {
-  width: 560px;
   height: 100%;
   text-align: center;
   line-height: 96px;
@@ -60,12 +70,29 @@ img {
 #header .nav ul li {
   display: block;
   float: left;
-  width: 140px;
+  position: relative;
+  width: 180px;
   height: 100%;
 }
 #header .nav ul li:hover {
   background-color: #d9cec7;
   color: #fff;
+}
+#header .nav ul li:hover .sub_nav {
+  visibility: visible;
+}
+#header .nav .sub_nav {
+  visibility: hidden;
+  position: absolute;
+  z-index: 9999;
+  background-color: #d9cec7;
+}
+#header .nav .sub_nav li {
+  height: 80px;
+  text-align: 80px;
+}
+#header .login_box a:first-child {
+  padding-right: 10px;
 }
 
 #mainBanner {
@@ -174,18 +201,19 @@ img {
   padding-left: 200px;
 }
 #footer .top {
-  height: 40px;
-  line-height: 40px;
+  height: 30px;
+  line-height: 30px;
   background: #403835;
 }
 #footer .bottom {
-  height: 190px;
+  height: 170px;
   padding-top: 10px;
   line-height: 15px;
   background: #a69a94;
 }
 #footer .friend_company {
   float: left;
+  margin-top: 50px;
 }
 #footer .footer_logo {
   float: right;

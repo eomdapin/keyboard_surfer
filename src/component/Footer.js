@@ -15,7 +15,7 @@ function Footer() {
           사업자등록번호 : 123-45-67890 | 개인정보관리책임자 : 홍길동 <br />
           전화 : 031-123-4567(상담시간 : 오전 9시 ~ 오후 6시, 공휴일 휴무) | 이메일 : help@keyboardsurfer.com
         </span>
-        <div className="friend_company"><img src='' /></div>
+        <div className="friend_company"><img src='/img/friend_company.png' /></div>
         <div className="footer_logo"><img src='/img/logo_2.png' /></div>
       </div>
     </div>
