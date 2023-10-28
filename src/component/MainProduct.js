@@ -20,7 +20,7 @@ function MainProduct(props) {
       <div className={props.className}>
         <a href={props.href}>
           <img src={props.src} alt={props.alt} />
-          <div>키보드 상품명</div>
+          <div>{props.alt}</div>
         </a>
       </div>
     );
