@@ -2,8 +2,8 @@ import React from 'react'
 
 function MainBanner() {
   return (
-    <div id='MainBanner'>
-      이미지를 넣어
+    <div id='mainBanner'>
+      <div>키보드 서퍼에 오신 것을 환영합니다.</div>
     </div>
   );
 }
