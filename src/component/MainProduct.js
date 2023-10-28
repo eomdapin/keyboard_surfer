@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Product(props) {
+function MainProduct(props) {
   // 인기, 추천 상품
   if (props.className !== 'product') {
     return (
@@ -27,4 +27,4 @@ function Product(props) {
   }
 }
 
-export default Product;
+export default MainProduct;
