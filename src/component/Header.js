@@ -4,7 +4,7 @@ function Header() {
   return (
     <div id='header'>
       <div className='logo'>
-        <a href="/"><img src='/img/logo_2.png' /></a>
+        <a href="/"><img src='./img/logo_2.png' /></a>
       </div>
       <div className='nav'>
         <ul>
@@ -39,8 +39,8 @@ function Header() {
         </ul>
       </div>
       <div className='login_box'>
-        <a href="#"><img src='/img/login.png' /></a>
-        <a href="#"><img src='/img/shoping.png' /></a>
+        <a href="#"><img src='./img/login.png' /></a>
+        <a href="#"><img src='./img/shoping.png' /></a>
       </div>
     </div>
   );
