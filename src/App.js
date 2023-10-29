@@ -11,9 +11,9 @@ function App() {
       <Header />
         <Router>
           <Routes>
-            <Route path="/" element={<MainBanner />} />
-            <Route path="/:sub_1/:sub_2" element={<SubBanner />} />
-            <Route path="/:sub_1/:sub_2/:sub_3" element={<SubBanner />} />
+            <Route path="/keyboard_surfer" element={<MainBanner />} />
+            <Route path="/keyboard_surfer/:sub_1/:sub_2" element={<SubBanner />} />
+            <Route path="/keyboard_surfer/:sub_1/:sub_2/:sub_3" element={<SubBanner />} />
           </Routes>
         </Router>
       <Footer />
