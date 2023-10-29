@@ -1,9 +1,9 @@
 import React from 'react';
+import { useParams } from 'react-router';
 import SubProduct from './SubProduct.js';
 import SideNavi from './SideNavi.js';
 import BreadCrum from './BreadCrum.js';
 import SubView from './SubView.js';
-import { useParams } from 'react-router';
 
 function SubBanner() {
   const { sub_3 } = useParams();

@@ -14,13 +14,13 @@ function Header() {
               <li><a href="#">이벤트</a></li>
             </ul>
           </li>
-          <li><a href="#">상품 목록</a>
+          <li><a href="/product/sub_1">상품 목록</a>
             <ul className="sub_nav">
-              <li><a href="#">풀배열 키보드</a></li>
-              <li><a href="#">텐키리스 키보드</a></li>
-              <li><a href="#">66Key 키보드</a></li>
-              <li><a href="#">마우스 패드</a></li>
-              <li><a href="#">악세서리</a></li>
+              <li><a href="/product/sub_1">풀배열 키보드</a></li>
+              <li><a href="/product/sub_2">텐키리스 키보드</a></li>
+              <li><a href="/product/sub_3">66Key 키보드</a></li>
+              <li><a href="/product/sub_4">마우스 패드</a></li>
+              <li><a href="/product/sub_5">악세서리</a></li>
             </ul>
           </li>
           <li><a href="#">자유게시판</a>
