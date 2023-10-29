@@ -12,10 +12,11 @@ function SubBanner() {
   const [imgs, setImgs] = useState(null);
 
   useEffect(() => {
+    
     fetch(API_URL.concat(pageNumber))
       .then(response => response.json())
       .then(response => setImgs(response.hits))
-  }, []);
+  }, [pageNumber]);
   
   return (
     <>

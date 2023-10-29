@@ -1,8 +1,7 @@
 {
+  "homepage":"https://eomdapin.github.io/keyboard_surfer",
   "name": "keyboard_surfer",
   "version": "1.0.0",
-  "homepage":"https://eomdapin.github.io/keyboard_surfer/",
-  "basename":"https://eomdapin.github.io/keyboard_surfer/",
   "dependencies": {
     "axios": "^1.5.1",
     "concurrently": "^8.2.2",
