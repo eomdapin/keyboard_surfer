@@ -6,10 +6,10 @@ function Footer() {
   return (
     <div id="footer">
       <div className="top">
-        <span><a href="/">사이트 소개</a></span> <span> | </span>
-        <span><a href="/">개인정보취급방침</a></span> <span> | </span>
-        <span><a href="/">이용약관</a></span> <span> | </span>
-        <span><a href="/">이메일 무단 수집 금지</a></span>
+        <span><a href="/keyboard_surfer/">사이트 소개</a></span> <span> | </span>
+        <span><a href="/keyboard_surfer/">개인정보취급방침</a></span> <span> | </span>
+        <span><a href="/keyboard_surfer/">이용약관</a></span> <span> | </span>
+        <span><a href="/keyboard_surfer/">이메일 무단 수집 금지</a></span>
       </div>
       <div className="bottom">
         <span>
