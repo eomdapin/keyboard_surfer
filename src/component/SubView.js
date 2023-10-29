@@ -1,11 +1,16 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 
-function SubView() {
+function SubView({ imgs }) {
+  const { sub_3 } = useParams();
+
   return (
     <>
-      <div className="product_img"><img src="/img/1.jpg" alt="1.jpg" /></div>
+      <div className="product_img">
+        <img src={imgs[sub_3].largeImageURL} alt={imgs[sub_3].largeImageURL} />
+      </div>
       <div className="product_info">
-        <div className="title">키보드 상품명 1</div>
+        <div className="title">키보드 상품명 {parseInt(sub_3)+1}</div>
         <div className="price">139,000원</div>
         <form action="">
           <select className="option_1">

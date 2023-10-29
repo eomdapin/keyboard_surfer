@@ -22,13 +22,12 @@ function Content() {
           productClassName.map((className, index) => {
             return (
               <React.Fragment key={index}>
-                {
-                  imgs &&
+                {imgs &&
                   <MainProduct
                     className={className}
                     href={`/product/sub_${productUrl[index]}`}
-                    src={`${imgs[index].largeImageURL}`}
-                    alt={`${productName[index]}`} />
+                    src={imgs[index].largeImageURL}
+                    alt={productName[index]} />
                 }
               </React.Fragment>
             );
