@@ -6,12 +6,17 @@
     "axios": "^1.5.1",
     "concurrently": "^8.2.2",
     "core-js": "^3.33.1",
+    "express": "^4.18.2",
+    "querystring": "^0.2.1",
+    "querystring-es3": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
+    "url": "^0.11.3",
     "web-vitals": "^2.1.4",
-    "yarn": "^1.22.19"
+    "yarn": "^1.22.19",
+    "zlib": "^1.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
