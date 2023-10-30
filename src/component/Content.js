@@ -17,21 +17,19 @@ function Content() {
   return (
     <div id='content'>
       <div className='box'>
-        {
-          productClassName.map((className, index) => {
-            return (
-              <React.Fragment key={index}>
-                {imgs &&
-                  <MainProduct
-                    className={className}
-                    href={`/keyboard_surfer/product/sub_${productUrl[index]}`}
-                    src={imgs[index].largeImageURL}
-                    alt={productName[index]} />
-                }
-              </React.Fragment>
-            );
-          })
-        }
+        {productClassName.map((className, index) => {
+          return (
+            <React.Fragment key={index}>
+              {imgs &&
+                <MainProduct
+                  className={className}
+                  href={`/keyboard_surfer/product/sub_${productUrl[index]}`}
+                  src={imgs[index].largeImageURL}
+                  alt={productName[index]} />
+              }
+            </React.Fragment>
+          );
+        })}
       </div>
     </div>
   );
