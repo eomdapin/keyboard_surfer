@@ -17,7 +17,7 @@ function MainProduct(props) {
   } else {
     // 그 외 하위 제품
     return (
-      <div className={props.className}>
+      <div className={props.className.concat(' box_shadow')}>
         <a href={props.href}>
           <img src={props.src} alt={props.alt} />
           <div>{props.alt}</div>

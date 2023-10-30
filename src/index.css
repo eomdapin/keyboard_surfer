@@ -14,9 +14,7 @@
 }
 
 body {
-  font-family: 'SUIT-Regular', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'SUIT-Regular', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #403835;
@@ -37,9 +35,18 @@ input[type="number"]::-webkit-outer-spin-button {
   opacity: 1;
 }
 
+.box_shadow:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
 #wrap {
   width: 1200px;
   margin: 0 auto;
+}
+#wrap::after {
+  content: '';
+  display: block;
+  clear: left;
 }
 
 #header {
@@ -68,25 +75,23 @@ input[type="number"]::-webkit-outer-spin-button {
   height: 100%;
   text-align: center;
   line-height: 96px;
-}
-#header .nav > ul {
   font-size: 24px;
 }
 #header .nav ul li {
   display: block;
   float: left;
   position: relative;
-  width: 180px;
-  height: 100%;
 }
 #header .nav ul li a {
+  display: block;
+  width: 180px;
   color: #f2ebe9;
+}
+#header .nav ul li a:hover {
+  color: #403835;
 }
 #header .nav ul li:hover {
   background-color: #d9cec7;
-  color: #fff;
-}
-#header .nav ul li:hover a {
   color: #fff;
 }
 #header .nav ul li:hover .sub_nav {
@@ -107,13 +112,13 @@ input[type="number"]::-webkit-outer-spin-button {
   padding-right: 10px;
 }
 
-#mainBanner {
+#main_banner {
   position: relative;
   width: 100%;
   height: 450px;
-  background: url('./img/main_img.jpg') no-repeat center center;
+  background: url('./img/main_img_01.jpg') no-repeat center center;
 }
-#mainBanner div {
+#main_banner div {
   position: absolute;
   top: 145px;
   left: 340px;
@@ -130,7 +135,7 @@ input[type="number"]::-webkit-outer-spin-button {
   position: relative;
   width: 100%;
   height: 150px;
-  background: url('./img/main_img.jpg') no-repeat center center;
+  background: url('./img/main_img_01.jpg') no-repeat center center;
 }
 #subBanner div {
   position: absolute;
@@ -177,6 +182,9 @@ input[type="number"]::-webkit-outer-spin-button {
   padding: 15px;
   text-align: right;
 }
+#content .link:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
 #content .link a {
   color: #f2ebe9;
   font-Size: 28px;
@@ -194,12 +202,12 @@ input[type="number"]::-webkit-outer-spin-button {
 #content .product {
   position: relative;
   width: 248px;
-  height: 240px;
+  height: 210px;
   float: left;
   border: 1px solid #f2ebe9;
 }
 #content .product img {
-  min-height: 240px;
+  min-height: 210px;
 }
 #content .product:nth-of-type(3n+4) { /* 중간 상품 */
   float: left;
@@ -224,11 +232,6 @@ input[type="number"]::-webkit-outer-spin-button {
 #side_nav {
   float: left;
 }
-#side_nav::after {
-  content: '';
-  display: block;
-  clear: left;
-}
 #side_nav .side_title {
   width: 200px;
   height: 110px;
@@ -239,8 +242,6 @@ input[type="number"]::-webkit-outer-spin-button {
   background: #403835;
 }
 #side_nav .side_btn {
-  width: 200px;
-  height: 50px;
   line-height: 50px;
   text-align: center;
   font-size: 20px;
@@ -249,7 +250,13 @@ input[type="number"]::-webkit-outer-spin-button {
   border-top: 0;
 }
 #side_nav .side_btn a {
+  display: block;
+  width: 198px;
+  height: 50px;
   color: #403835;
+}
+#side_nav .side_btn:hover {
+  background: #ddd;
 }
 
 #sub_content {
@@ -280,8 +287,8 @@ input[type="number"]::-webkit-outer-spin-button {
   color: #403835;
 }
 #sub_content #sub_product img {
-  width: 148px;
-  height: 148px;
+  width: 145px;
+  height: 145px;
   border: 1px solid #a69a94;
 }
 #sub_content #sub_product div {
@@ -293,6 +300,7 @@ input[type="number"]::-webkit-outer-spin-button {
 #sub_content #sub_product .price {
   font-size: 14px;
 }
+
 #sub_content .product_img {
   float: left;
 }
@@ -348,26 +356,30 @@ input[type="number"]::-webkit-outer-spin-button {
   border: 0;
 }
 #sub_content .product_info .buy {
-  width: 150px;
-  height: 40px;
   margin-right: 15px;
+  line-height: 40px;
   background-color: #59514f;
 }
 #sub_content .product_info .buy a {
   color: #f2ebe9;
 }
 #sub_content .product_info .wish_list {
-  width: 150px;
-  height: 40px;
   background-color: #f2ebe9;
+  line-height: 40px;
 }
 #sub_content .product_info .wish_list a {
   color: #403835;
 }
+#sub_content .product_info .buy a,
+#sub_content .product_info .wish_list a {
+  display: block;
+  width: 150px;
+  height: 40px;
+}
+
 #sub_content .sub_desc img {
   margin-top: 20px;
 }
-
 
 #footer {
   width: 100%;

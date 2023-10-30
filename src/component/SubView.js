@@ -14,21 +14,21 @@ function SubView({ imgs }) {
         <div className="title">키보드 상품명 {parseInt(sub_3)+1}</div>
         <div className="price">139,000원</div>
         <form action="">
-          <select className="option_1">
+          <select className="option_1 box_shadow">
             <option>상품 추가옵션 1 (+ 0 )</option>
             <option>키캡 추가 (+ 50,000)</option>
             <option>키캡 리무버 추가 (+ 10,000)</option>
           </select>
-          <select className="option_2">
+          <select className="option_2 box_shadow">
             <option>상품 추가옵션 2 (+ 0 )</option>
             <option>안전 포장 추가 (+ 5,000)</option>
           </select>
-          <div className="quantity">
+          <div className="quantity box_shadow">
             <label>수량</label>
             <input type="number" min="1" max="10" step="1" defaultValue="1"></input>
           </div>
-          <button className="buy"><a href="/keyboard_surfer/">구매하기</a></button>
-          <button className="wish_list"><a href="/keyboard_surfer/">장바구니</a></button>
+          <button className="buy box_shadow"><a href="/keyboard_surfer/">구매하기</a></button>
+          <button className="wish_list box_shadow"><a href="/keyboard_surfer/">장바구니</a></button>
         </form>
       </div>
       <div className="sub_desc"><img src={subview} alt="상품 상세안내" /></div>

@@ -5,7 +5,7 @@ function SubBox(props) {
   const { sub_2 } = useParams();
 
   return (
-    <div className="sub_box">
+    <div className="sub_box box_shadow">
       <a href={`/keyboard_surfer/product/${sub_2}/${props.index}`}>
         <img src={props.src} alt={props.src} />
         <div className="title">키보드 상품명 {props.index+1}</div>
