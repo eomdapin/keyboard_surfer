@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import subview from '../../img/subview.jpg';
+import { subview } from '../../img.js';
 
 function SubView({ imgs }) {
   const { sub_3 } = useParams();

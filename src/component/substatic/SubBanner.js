@@ -3,7 +3,7 @@ import { useParams } from 'react-router';
 import { API_URL } from '../config.js';
 import SubProduct from '../subpage/SubProduct.js';
 import SideNavi from './SideNavi.js';
-import BreadCrum from '../BreadCrum.js';
+import BreadCrum from './BreadCrum.js';
 import SubView from '../subpage/SubView.js';
 import Notice from '../subpage/Notice.js';
 import Event from '../subpage/Event.js';
