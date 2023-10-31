@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/keyboard_surfer/static/css/main.13724804.css",
-    "main.js": "/keyboard_surfer/static/js/main.340b0195.js",
+    "main.css": "/keyboard_surfer/static/css/main.cdef1fa8.css",
+    "main.js": "/keyboard_surfer/static/js/main.8e7583e5.js",
     "static/js/787.34c9c3ec.chunk.js": "/keyboard_surfer/static/js/787.34c9c3ec.chunk.js",
     "static/media/subview.jpg": "/keyboard_surfer/static/media/subview.8336acc704eed76aca47.jpg",
     "static/media/main_img_03.jpg": "/keyboard_surfer/static/media/main_img_03.5ebf92c74f7f7a15e2d9.jpg",
@@ -10,12 +10,12 @@
     "static/media/logo_2.png": "/keyboard_surfer/static/media/logo_2.09bf3ad9b6b866c28e8d.png",
     "static/media/friend_company.png": "/keyboard_surfer/static/media/friend_company.e2a886355b5e185ccdec.png",
     "index.html": "/keyboard_surfer/index.html",
-    "main.13724804.css.map": "/keyboard_surfer/static/css/main.13724804.css.map",
-    "main.340b0195.js.map": "/keyboard_surfer/static/js/main.340b0195.js.map",
+    "main.cdef1fa8.css.map": "/keyboard_surfer/static/css/main.cdef1fa8.css.map",
+    "main.8e7583e5.js.map": "/keyboard_surfer/static/js/main.8e7583e5.js.map",
     "787.34c9c3ec.chunk.js.map": "/keyboard_surfer/static/js/787.34c9c3ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13724804.css",
-    "static/js/main.340b0195.js"
+    "static/css/main.cdef1fa8.css",
+    "static/js/main.8e7583e5.js"
   ]
 }
