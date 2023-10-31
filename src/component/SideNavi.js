@@ -14,8 +14,8 @@ function SideNavi() {
     sub_3: 'product/sub_3',
     sub_4: 'product/sub_4',
     sub_5: 'product/sub_5',
-    notice: 'notice',
-    event: 'event',
+    notice: 'notice/notice',
+    event: 'notice/event',
   };
   const pathName = {
     notice: ['공지사항', '이벤트'],
