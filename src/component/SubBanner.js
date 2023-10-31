@@ -15,7 +15,11 @@ function SubBanner() {
   const pagePath = {
     notice: <Notice />,
     event: <Event />,
-    product: imgs && sub_3 ? <SubView imgs={imgs} /> : <SubProduct imgs={imgs} />
+    sub_1: imgs && sub_3 ? <SubView imgs={imgs} /> : <SubProduct imgs={imgs} />,
+    sub_2: imgs && sub_3 ? <SubView imgs={imgs} /> : <SubProduct imgs={imgs} />,
+    sub_3: imgs && sub_3 ? <SubView imgs={imgs} /> : <SubProduct imgs={imgs} />,
+    sub_4: imgs && sub_3 ? <SubView imgs={imgs} /> : <SubProduct imgs={imgs} />,
+    sub_5: imgs && sub_3 ? <SubView imgs={imgs} /> : <SubProduct imgs={imgs} />,
   }
 
   useEffect(() => {
@@ -32,11 +36,10 @@ function SubBanner() {
       <SideNavi />
       <div id="sub_content">
         <BreadCrum />
-        {pagePath[sub_1]}
+        {pagePath[sub_2]}
       </div>
     </>
   );
-
 
 }
 
