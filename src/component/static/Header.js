@@ -14,7 +14,7 @@ function Header() {
             return (
               <React.Fragment key={outIndex}>
                 <li>
-                  <a href={path.concat(pathSub[outValue][outIndex])}>{pathTitle[outValue]}</a>
+                  <a href={path.concat(pathSub[outValue][0])}>{pathTitle[outValue]}</a>
                   <ul className="sub_nav">
                     {pathName[outValue].map((inValue, inIndex) => {
                       return (

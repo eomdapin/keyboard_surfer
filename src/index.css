@@ -82,17 +82,20 @@ input[type="number"]::-webkit-outer-spin-button {
   float: left;
   position: relative;
 }
+#header .nav ul li:hover {
+  background-color: #d9cec7;
+  color: #fff;
+}
 #header .nav ul li a {
   display: block;
   width: 180px;
   color: #f2ebe9;
 }
-#header .nav ul li a:hover {
+#header .nav ul li:hover a {
   color: #403835;
 }
-#header .nav ul li:hover {
-  background-color: #d9cec7;
-  color: #fff;
+#header .nav ul li a:hover {
+  color: #f2ebe9;
 }
 #header .nav ul li:hover .sub_nav {
   visibility: visible;
@@ -101,12 +104,16 @@ input[type="number"]::-webkit-outer-spin-button {
   visibility: hidden;
   position: absolute;
   z-index: 9999;
+  font-size: 20px;
   background-color: #d9cec7;
 }
 #header .nav .sub_nav li {
-  height: 80px;
-  line-height: 80px;
+  height: 50px;
+  line-height: 50px;
   border-top: 1px solid #eee;
+}
+#header .nav .sub_nav li a {
+  color: #333;
 }
 #header .login_box a:first-child {
   padding-right: 10px;
@@ -266,8 +273,8 @@ input[type="number"]::-webkit-outer-spin-button {
   height: 50px;
   color: #403835;
 }
-#side_nav .side_btn:hover {
-  background: #ddd;
+#side_nav .side_btn:hover a {
+  color: #ccc;
 }
 
 #sub_content {
