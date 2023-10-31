@@ -5,18 +5,25 @@ import SubProduct from './SubProduct.js';
 import SideNavi from './SideNavi.js';
 import BreadCrum from './BreadCrum.js';
 import SubView from './SubView.js';
+import Notice from './Notice.js';
+import Event from './Event.js';
 
 function SubBanner() {
-  const { sub_2, sub_3 } = useParams();
-  const pageNumber = sub_2.slice(-1);
+  const { sub_1, sub_2, sub_3 } = useParams();
+  const pageNumber = sub_2 && sub_2.slice(-1);
   const [imgs, setImgs] = useState(null);
+  const pagePath = {
+    notice: <Notice />,
+    event: <Event />,
+    product: imgs && sub_3 ? <SubView imgs={imgs} /> : <SubProduct imgs={imgs} />
+  }
 
   useEffect(() => {
     fetch(API_URL.concat(pageNumber))
       .then(response => response.json())
       .then(response => setImgs(response.hits))
   }, [pageNumber]);
-  
+
   return (
     <>
       <div id='subBanner'>
@@ -25,10 +32,12 @@ function SubBanner() {
       <SideNavi />
       <div id="sub_content">
         <BreadCrum />
-        { imgs && sub_3 ? <SubView imgs={imgs} /> : <SubProduct imgs={imgs} />}
+        {pagePath[sub_1]}
       </div>
     </>
   );
+
+
 }
 
 export default SubBanner;

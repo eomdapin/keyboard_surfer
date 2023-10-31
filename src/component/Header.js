@@ -12,10 +12,10 @@ function Header() {
       </div>
       <div className='nav'>
         <ul>
-          <li><a href="/keyboard_surfer/">공지사항</a>
+          <li><a href="/keyboard_surfer/notice/notice">공지사항</a>
             <ul className="sub_nav">
-              <li><a href="/keyboard_surfer/">공지사항</a></li>
-              <li><a href="/keyboard_surfer/">이벤트</a></li>
+              <li><a href="/keyboard_surfer/notice/notice/notice">공지사항</a></li>
+              <li><a href="/keyboard_surfer/notice/notice/event">이벤트</a></li>
             </ul>
           </li>
           <li><a href="/keyboard_surfer/product/sub_1">상품 목록</a>
