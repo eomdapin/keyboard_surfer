@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from '../img/logo_2.png';
-import friend_company from '../img/friend_company.png';
+import { logo, friend_company } from '../../img.js';
 
 function Footer() {
   return (

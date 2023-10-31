@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from '../img/logo_2.png';
-import login from '../img/login.png';
-import shoping from '../img/shoping.png';
+import logo from '../../img/logo_2.png';
+import login from '../../img/login.png';
+import shoping from '../../img/shoping.png';
 
 
 function Header() {
@@ -14,8 +14,8 @@ function Header() {
         <ul>
           <li><a href="/keyboard_surfer/notice/notice">공지사항</a>
             <ul className="sub_nav">
-              <li><a href="/keyboard_surfer/notice/notice/notice">공지사항</a></li>
-              <li><a href="/keyboard_surfer/notice/notice/event">이벤트</a></li>
+              <li><a href="/keyboard_surfer/notice/notice">공지사항</a></li>
+              <li><a href="/keyboard_surfer/notice/event">이벤트</a></li>
             </ul>
           </li>
           <li><a href="/keyboard_surfer/product/sub_1">상품 목록</a>

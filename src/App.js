@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from "./component/Header.js";
-import MainBanner from "./component/MainBanner.js";
-import Footer from "./component/Footer.js";
-import SubBanner from "./component/SubBanner.js";
+import Header from "./component/static/Header.js";
+import MainBanner from "./component/mainpage/MainBanner.js";
+import SubBanner from "./component/substatic/SubBanner.js";
+import Footer from "./component/static/Footer.js";
 
 function App() {
   return (

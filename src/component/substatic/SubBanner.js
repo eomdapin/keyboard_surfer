@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { API_URL } from './config.js';
-import SubProduct from './SubProduct.js';
+import { API_URL } from '../config.js';
+import SubProduct from '../subpage/SubProduct.js';
 import SideNavi from './SideNavi.js';
-import BreadCrum from './BreadCrum.js';
-import SubView from './SubView.js';
-import Notice from './Notice.js';
-import Event from './Event.js';
+import BreadCrum from '../BreadCrum.js';
+import SubView from '../subpage/SubView.js';
+import Notice from '../subpage/Notice.js';
+import Event from '../subpage/Event.js';
 
 function SubBanner() {
   const { sub_1, sub_2, sub_3 } = useParams();

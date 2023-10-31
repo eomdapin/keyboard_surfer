@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import MainProduct from './MainProduct.js';
-import { API_URL } from './config.js';
+import { API_URL } from '../config.js';
 
 function Content() {
   const productClassName = ['popular', 'recommend', 'product', 'product', 'product', 'product', 'product', 'product'];
