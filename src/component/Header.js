@@ -27,17 +27,17 @@ function Header() {
               <li><a href="/keyboard_surfer/product/sub_5">악세서리</a></li>
             </ul>
           </li>
-          <li><a href="/keyboard_surfer/">자유게시판</a>
+          <li><a href="/keyboard_surfer/freeboard/freeboard">자유게시판</a>
             <ul className="sub_nav">
-              <li><a href="/keyboard_surfer/">자유게시판</a></li>
-              <li><a href="/keyboard_surfer/">출석체크</a></li>
+              <li><a href="/keyboard_surfer/freeboard/freeboard">자유게시판</a></li>
+              <li><a href="/keyboard_surfer/freeboard/todaycheck">출석체크</a></li>
             </ul>
           </li>
-          <li><a href="/keyboard_surfer/">마이페이지</a>
+          <li><a href="/keyboard_surfer/mypage/ordersearch">마이페이지</a>
             <ul className="sub_nav">
-              <li><a href="/keyboard_surfer/">주문조회</a></li>
-              <li><a href="/keyboard_surfer/">주문취소</a></li>
-              <li><a href="/keyboard_surfer/">장바구니</a></li>
+              <li><a href="/keyboard_surfer/mypage/ordersearch">주문조회</a></li>
+              <li><a href="/keyboard_surfer/mypage/ordercancel">주문취소</a></li>
+              <li><a href="/keyboard_surfer/mypage/cart">장바구니</a></li>
             </ul>
           </li>
         </ul>
