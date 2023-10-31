@@ -19,7 +19,7 @@
 /keyboard_surfer/product/:상품번호 : SubBanner.js, SideNavi.js, BreadCrum.js, SubView.js
 
 #### 남은 과제
-1. Header Component 쪼개기
+1. Header Component 쪼개기 - 완료
 2. 공지사항 페이지
 3. 상품추가 페이지 만들어서 실제 추가하기
 4. 다른 API 사용해보기
