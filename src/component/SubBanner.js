@@ -40,7 +40,6 @@ function SubBanner() {
       </div>
     </>
   );
-
 }
 
 export default SubBanner;
