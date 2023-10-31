@@ -295,27 +295,40 @@ input[type="number"]::-webkit-outer-spin-button {
   border-bottom: 1px solid #e4e1df;
   color: #403835;
 }
-#sub_content #sub_product {
+
+#notice {
+  display: grid;
+  grid-template-rows: repeat(10, 50px);
+  margin-bottom: 50px;
+}
+#notice .notice_title {
+  display: flex;
+}
+#notice .notice_line {
+  display: flex;
+}
+
+#sub_product {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 5px;
   margin-bottom: 50px;
 }
-#sub_content #sub_product a {
+#sub_product a {
   color: #403835;
 }
-#sub_content #sub_product img {
+#sub_product img {
   width: 145px;
   height: 145px;
   border: 1px solid #a69a94;
 }
-#sub_content #sub_product div {
+#sub_product div {
   text-align: center;
 }
-#sub_content #sub_product .title {
+#sub_product .title {
   font-size: 16px;
 }
-#sub_content #sub_product .price {
+#sub_product .price {
   font-size: 14px;
 }
 
